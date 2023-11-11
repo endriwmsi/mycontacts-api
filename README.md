@@ -5,7 +5,7 @@ This is a simple API built with Express using PostgreSQL to add contacts and cat
 #### Rodando a API
 To run this API, you need to have Docker installed to run a PostgreSQL instance. After installation, open the terminal and execute the following command to download and run a PostgreSQL image:
 ```
-docker run --name pg -e POSTGRES_USER=root -e POSTGRES_PASSWORD=password -e POSTGRES_DB=mycontacts -p 5432:5432 -d postgres
+docker run --name pg -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -p 5432:5432 -d postgres
 ```
 
 This will start a PostgreSQL container already configured to run the backend correctly.
